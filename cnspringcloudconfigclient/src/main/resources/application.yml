@@ -8,10 +8,10 @@ spring:
     port: 5672
     username: guest
     password: guest
-  cloud:
-    bus:
-      trace:
-        enabled: true
+#  cloud:
+#    bus:
+#      trace:
+#        enabled: true## 开启消息跟踪    （暂时没用）
 management:
   endpoints:
     web:
