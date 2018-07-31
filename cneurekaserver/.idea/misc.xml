@@ -5,6 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../cnspringcloudconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/../cnspringcloudconfigclient/pom.xml" />
+        <option value="$PROJECT_DIR$/../eurekaconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../eurekaproducer/pom.xml" />
       </list>
     </option>
   </component>

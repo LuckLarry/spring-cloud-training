@@ -10,10 +10,11 @@ spring:
         git:
           uri: https://github.com/LuckLarry/spring-config-server-training
           search-paths: config-repo
-#          username:
-#          password: 如果是公有库就不需要账号和密码
+#username:
+#password: 如果是公有库就不需要账号和密码
+#注册中心
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:9000/eureka/
-      #注册中心
+

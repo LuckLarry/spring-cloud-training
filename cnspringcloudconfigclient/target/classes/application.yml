@@ -1,10 +1,10 @@
 server:
-  port: 9007
+  port: 9009
 spring:
   application:
     name: cloud-config-client
   rabbitmq:
-    host: 127.0.0.1
+    host: localhost
     port: 5672
     username: guest
     password: guest
@@ -13,6 +13,7 @@ spring:
       trace:
         enabled: true
 management:
-  endpoint:
-    bus-refresh:
-      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cn.eurekaconsumer" />
+        <module name="cn.eurekaproducer" />
         <module name="cn.eurekaserver" />
+        <module name="cn.springcloudconfigclient" />
         <module name="cneurekaserver" />
       </profile>
     </annotationProcessing>
