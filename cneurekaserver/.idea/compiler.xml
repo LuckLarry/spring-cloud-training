@@ -11,6 +11,7 @@
         <module name="cn.eurekaserver" />
         <module name="cn.springcloudconfigclient" />
         <module name="cneurekaserver" />
+        <module name="cnspringcloudgateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="10" />

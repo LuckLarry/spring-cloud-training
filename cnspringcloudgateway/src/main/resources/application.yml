@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-cloud-gateway-zuul
+server:
+  port: 9006
+zuul:
+  routes:
+    baidu:
+      path: /it/**
+      url: http://www.ityouknow.com/
