@@ -1,0 +1,18 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: cloud-config-client
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    bus:
+      trace:
+        enabled: true
+management:
+  endpoint:
+    bus-refresh:
+      enabled: true
