@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/eurekaproducer/pom.xml" />
         <option value="$PROJECT_DIR$/cnspringcloudconfig/pom.xml" />
         <option value="$PROJECT_DIR$/cnspringcloudconfigclient/pom.xml" />
+        <option value="$PROJECT_DIR$/cnspringcloudgateway/pom.xml" />
+        <option value="$PROJECT_DIR$/cnspringcloudredssion/pom.xml" />
       </list>
     </option>
   </component>

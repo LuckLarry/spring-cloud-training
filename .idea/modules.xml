@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaconsumer/cn.eurekaconsumer.iml" filepath="$PROJECT_DIR$/eurekaconsumer/cn.eurekaconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaproducer/cn.eurekaproducer.iml" filepath="$PROJECT_DIR$/eurekaproducer/cn.eurekaproducer.iml" />
       <module fileurl="file://$PROJECT_DIR$/cneurekaserver/cn.eurekaserver.iml" filepath="$PROJECT_DIR$/cneurekaserver/cn.eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cnspringcloudgateway/cn.springcloudgateway.iml" filepath="$PROJECT_DIR$/cnspringcloudgateway/cn.springcloudgateway.iml" group="cn" />
       <module fileurl="file://$PROJECT_DIR$/cnspringcloudconfig/cnspringcloudconfig.iml" filepath="$PROJECT_DIR$/cnspringcloudconfig/cnspringcloudconfig.iml" group="cn" />
       <module fileurl="file://$PROJECT_DIR$/cnspringcloudconfigclient/cnspringcloudconfigclient.iml" filepath="$PROJECT_DIR$/cnspringcloudconfigclient/cnspringcloudconfigclient.iml" group="cn" />
+      <module fileurl="file://$PROJECT_DIR$/cnspringcloudredssion/cnspringcloudredssion.iml" filepath="$PROJECT_DIR$/cnspringcloudredssion/cnspringcloudredssion.iml" group="cn" />
     </modules>
   </component>
 </project>

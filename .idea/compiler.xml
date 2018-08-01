@@ -9,15 +9,19 @@
         <module name="cn.eurekaconsumer" />
         <module name="cn.eurekaproducer" />
         <module name="cn.eurekaserver" />
+        <module name="cn.springcloudgateway" />
         <module name="cnspringcloudconfigclient" />
+        <module name="cnspringcloudredssion" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cn.eurekaconsumer" target="1.8" />
       <module name="cn.eurekaproducer" target="1.8" />
       <module name="cn.eurekaserver" target="1.8" />
+      <module name="cn.springcloudgateway" target="1.8" />
       <module name="cnspringcloudconfig" target="1.8" />
       <module name="cnspringcloudconfigclient" target="1.8" />
+      <module name="cnspringcloudredssion" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
