@@ -1,0 +1,11 @@
+.idea/
+*.iml
+spring-cloud-training-cloud-config-client/target/
+spring-cloud-training-cloud-redssion/target/
+spring-cloud-training-eureka-server/target/
+spring-cloud-training-eureka-producer/target/
+spring-cloud-training-eureka-consumer/target/
+spring-cloud-training-cloud-swagger2/target/
+spring-cloud-training-cloud-swagger1/target/
+spring-cloud-training-cloud-gateway/target/
+spring-cloud-training-cloud-config/target/
