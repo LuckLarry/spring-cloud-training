@@ -18,6 +18,7 @@
     <modules>
         <module>redisson-spring-boot-autoconfigure</module>
         <module>redisson-spring-boot-starter</module>
+        <module>spring-cloud-training-redisson-starter-test</module>
     </modules>
 
 </project>

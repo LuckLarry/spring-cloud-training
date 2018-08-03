@@ -23,6 +23,7 @@
         <module>spring-cloud-training-cloud-config</module>
         <module>spring-cloud-training-cloud-config-client</module>
         <module>redisson-spring-boot-starter-parent</module>
+        <module>spring-cloud-training-redisson-starter-test</module>
     </modules>
 
 

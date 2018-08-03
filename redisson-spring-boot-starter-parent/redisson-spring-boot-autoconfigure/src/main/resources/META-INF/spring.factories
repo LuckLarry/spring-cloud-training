@@ -1,4 +1,4 @@
 # Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.itopener.redisson.spring.boot.autoconfigure.RedissonAutoConfiguration,\
-com.itopener.redisson.spring.boot.autoconfigure.RedissonCacheConfiguration
+spring.cloud.training.RedissonAutoConfiguration,\
+spring.cloud.training.RedissonCacheConfiguration
