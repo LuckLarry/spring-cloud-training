@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/cnspringcloudconfigclient/pom.xml" />
         <option value="$PROJECT_DIR$/cnspringcloudgateway/pom.xml" />
         <option value="$PROJECT_DIR$/cnspringcloudredssion/pom.xml" />
+        <option value="$PROJECT_DIR$/cnspringcloudswagger1/pom.xml" />
+        <option value="$PROJECT_DIR$/cnspringcloudswagger2/pom.xml" />
       </list>
     </option>
   </component>

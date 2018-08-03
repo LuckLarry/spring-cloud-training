@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/cnspringcloudconfigclient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cnspringcloudgateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cnspringcloudredssion" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cnspringcloudswagger1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cnspringcloudswagger2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaconsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaproducer" charset="UTF-8" />
   </component>

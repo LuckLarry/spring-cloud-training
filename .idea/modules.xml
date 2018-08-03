@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/cnspringcloudconfig/cnspringcloudconfig.iml" filepath="$PROJECT_DIR$/cnspringcloudconfig/cnspringcloudconfig.iml" group="cn" />
       <module fileurl="file://$PROJECT_DIR$/cnspringcloudconfigclient/cnspringcloudconfigclient.iml" filepath="$PROJECT_DIR$/cnspringcloudconfigclient/cnspringcloudconfigclient.iml" group="cn" />
       <module fileurl="file://$PROJECT_DIR$/cnspringcloudredssion/cnspringcloudredssion.iml" filepath="$PROJECT_DIR$/cnspringcloudredssion/cnspringcloudredssion.iml" group="cn" />
+      <module fileurl="file://$PROJECT_DIR$/cnspringcloudswagger1/cnspringcloudswagger1.iml" filepath="$PROJECT_DIR$/cnspringcloudswagger1/cnspringcloudswagger1.iml" group="cn" />
+      <module fileurl="file://$PROJECT_DIR$/cnspringcloudswagger2/cnspringcloudswagger2.iml" filepath="$PROJECT_DIR$/cnspringcloudswagger2/cnspringcloudswagger2.iml" group="cn" />
     </modules>
   </component>
 </project>

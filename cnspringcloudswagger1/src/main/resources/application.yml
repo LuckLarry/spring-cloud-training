@@ -1,0 +1,11 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: spring-cloud-swagger1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+swagger:
+  base-package: springcloudswagger1

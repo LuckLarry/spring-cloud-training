@@ -12,6 +12,8 @@
         <module name="cn.springcloudgateway" />
         <module name="cnspringcloudconfigclient" />
         <module name="cnspringcloudredssion" />
+        <module name="cnspringcloudswagger1" />
+        <module name="cnspringcloudswagger2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,8 @@
       <module name="cnspringcloudconfig" target="1.8" />
       <module name="cnspringcloudconfigclient" target="1.8" />
       <module name="cnspringcloudredssion" target="1.8" />
+      <module name="cnspringcloudswagger1" target="1.8" />
+      <module name="cnspringcloudswagger2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
