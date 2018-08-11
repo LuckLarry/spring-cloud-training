@@ -3,37 +3,41 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>redisson-spring-boot-starter-parent</artifactId>
+        <artifactId>spring-cloud-training</artifactId>
         <groupId>spring.cloud.training</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>redisson-spring-boot-autoconfigure</artifactId>
+    <groupId>spring.cloud.training</groupId>
+    <artifactId>spring-cloud-training-jwt-starter-test</artifactId>
 
-    <name>redisson-spring-boot-autoconfigure</name>
+    <name>spring-cloud-training-jwt-starter-test</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
-    <packaging>jar</packaging>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <jwtio.version>0.6.0</jwtio.version>
+        <auth0.version>3.1.0</auth0.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
-
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>${auth0.version}</version>
         </dependency>
-
         <dependency>
-            <groupId>org.redisson</groupId>
-            <artifactId>redisson</artifactId>
-            <version>3.7.5</version>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>${jwtio.version}</version>
         </dependency>
     </dependencies>
 </project>
