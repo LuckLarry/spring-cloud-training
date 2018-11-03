@@ -1,5 +1,6 @@
 package com.platform.product.controller;
 
+import com.platform.product.dto.CartDTO;
 import com.platform.product.VO.ProductInfoVO;
 import com.platform.product.VO.ProductVO;
 import com.platform.product.VO.ResultVO;
@@ -56,5 +57,11 @@ public class ProductController {
     @PostMapping("/listForOrder")
     public List<ProductInfo> listForOrder(@RequestBody List<String> productIdList){
         return productService.findList(productIdList);
+    }
+
+
+    @PostMapping("/decreaseStock")
+    public void decreaseStock(@RequestBody List<CartDTO> cartDTOList){
+        productService.decreaseStock(cartDTOList);
     }
 }

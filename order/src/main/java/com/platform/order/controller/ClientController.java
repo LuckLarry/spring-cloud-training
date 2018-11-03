@@ -2,11 +2,13 @@ package com.platform.order.controller;
 
 import com.platform.order.client.ProductClient;
 import com.platform.order.dataobject.ProductInfo;
+import com.platform.order.dto.CartDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
@@ -28,5 +30,11 @@ public class ClientController {
         List<ProductInfo> list = productClient.listForOrder(Arrays.asList("234234234234234234","32452345234532452345"));
         log.info("res {}",list);
         return "res";
+    }
+
+    @GetMapping("productDecreaseStock")
+    public String productDecreaseStock(){
+        productClient.decreaseStock(Arrays.asList(new CartDTO("32452345234532452345",2)));
+        return "success";
     }
 }
