@@ -22,7 +22,7 @@ public class ProductCategoryRepositoryTest {
 
     @Test
     public void findByCAndCategoryTypeIn() {
-        List<ProductCategory> list = productCategoryRepository.findByCAndCategoryTypeIn(Arrays.asList(11,22));
+        List<ProductCategory> list = productCategoryRepository.findByCategoryTypeIn(Arrays.asList(11,22));
         Assert.assertTrue(list.size()>0);
     }
 }

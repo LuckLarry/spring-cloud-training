@@ -18,7 +18,7 @@ public class ProductInfo {
     private BigDecimal productPrice;
     private Integer productStock;
     private String productDescription;
-    private Integer ProductStatus;
+    private Integer productStatus;
     private Integer categoryType;
     private Date createTime;
     private Date updateTime;
