@@ -13,7 +13,7 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-config-client</artifactId>
             </dependency>
-            重点，添加actuator依赖，才能暴露actuator/bus-refresh端口
+            重点，添加actuator依赖，才能暴露actuator/bus-refresh端口 （新版本已经不需要的）
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
@@ -36,8 +36,9 @@
         web:
           exposure:
             include: bus-refresh
-    3，在有需要@value()注入的类上，添加该注解，在客户端 curl -X POST host:port/acturator/bus-refresh时，就会更新该属性
-    @RefreshScope
+    3，在有需要@value()注入的类上，添加该注解（@RefreshScope），
+    在客户端 curl -X POST host:port/acturator/bus-refresh时，就会更新该属性
+    
 
 服务总线更新（2.0.3.RELEASE）（服务端端更新方式）
     基于客户端更新方式改造

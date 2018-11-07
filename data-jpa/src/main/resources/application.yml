@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: rootroot
+    url: jdbc:mysql://127.0.0.1:3306/spring_cloud?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+  application:
+    name: jpa
+  jpa:
+    show-sql: true
+    #hibernate:
+      #ddl-auto: create
+      #配置指明在程序启动的时候要删除并且创建实体类对应的表
+  flyway:
+    enabled: false
