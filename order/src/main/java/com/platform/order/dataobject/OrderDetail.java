@@ -1,6 +1,7 @@
 package com.platform.order.dataobject;
 
 import lombok.Data;
+import lombok.Getter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -14,7 +15,7 @@ public class OrderDetail {
     private String orderId;
     private String productId;
     private String productName;
-    private BigDecimal productProice;
+    private BigDecimal productPrice;
     private Integer productQuantity;
     private String productIcon;
 }
