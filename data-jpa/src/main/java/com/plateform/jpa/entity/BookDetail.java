@@ -13,10 +13,10 @@ public class BookDetail {
 
     @Column(name = "number_of_pages")
     private Integer numberOfPages;
-
-    @OneToOne(mappedBy = "bookDetail")
-    @JoinColumn(name = "detailId")
-    private Book book;
+//不能互相关联，会造成循环引用
+//    @OneToOne(mappedBy = "bookDetail")
+//    @JoinColumn(name = "detailId")
+//    private Book book;
 
     public BookDetail() {
     }
@@ -27,10 +27,10 @@ public class BookDetail {
 
     @Override
     public String toString() {
-        if (null == book) {
-            return String.format("Book [id=%s, name=%s, number of pages=%s]", id, "<EMPTY>");
-        }
+//        if (null == book) {
+            return String.format("BookDetail [id=%s, name=%s, number of pages=%s]", id, "<EMPTY>");
+//        }
 
-        return String.format("Book [id=%s, name=%s, number of pages=%s]", id,book.getId(),book.getName());
+//        return String.format("BookDetail [id=%s, name=%s, number of pages=%s]", id,book.getId(),book.getName());
     }
 }

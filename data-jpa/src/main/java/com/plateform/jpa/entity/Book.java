@@ -38,11 +38,10 @@ public class Book {
 
     @Override
     public String toString() {
-//        if (null == bookDetail) {
-//            return String.format("Book [id=%s, name=%s, number of pages=%s]", id, name, "<EMPTY>");
-//        }
-//        return String.format("Book [id=%s, name=%s, number of pages=%s]", id, name, bookDetail.getNumberOfPages());
-        return "book";
+        if (null == bookDetail) {
+            return String.format("Book [id=%s, name=%s, number of pages=%s]", id, name, "<EMPTY>");
+        }
+        return String.format("Book [id=%s, name=%s, number of pages=%s]", id, name, bookDetail.getNumberOfPages());
     }
 
 }
