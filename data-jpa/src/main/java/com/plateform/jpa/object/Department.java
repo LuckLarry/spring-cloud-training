@@ -19,7 +19,7 @@ public class Department {
 //  @OneToMany(mappedBy="department")
 //  private Set<Student> students=new HashSet<Student>();
 
-    public Department(){
-        super();
-    }
+//    public Department(){
+//        super();
+//    }
 }

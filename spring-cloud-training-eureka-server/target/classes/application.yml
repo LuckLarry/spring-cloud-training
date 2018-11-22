@@ -5,7 +5,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      default-zone: http://root:root@eureka-server:9000/eureka/
+      default-zone: http://eureka-server:9000/eureka/
 spring:
   application:
     name: eureka-server

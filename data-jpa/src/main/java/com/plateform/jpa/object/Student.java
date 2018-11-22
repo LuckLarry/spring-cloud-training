@@ -15,11 +15,11 @@ public class Student {
     @Column(length = 100)
     private String name;
 
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.ALL})
     @JoinColumn(name = "department_id")
     private Department department;
 
-    public Student() {
-        super();
-    }
+//    public Student() {
+//        super();
+//    }
 }
