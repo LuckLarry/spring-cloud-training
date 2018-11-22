@@ -10,7 +10,8 @@ https://blog.csdn.net/u010588262/article/details/76667283
 https://www.cnblogs.com/hhhshct/p/9492741.html
 
 
-
+不要使用特殊端口（6000，5000等）
+电脑有屏蔽端口
 
 
 
