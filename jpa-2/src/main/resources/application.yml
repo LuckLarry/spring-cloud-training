@@ -9,10 +9,10 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+#      ddl-auto: create
       #配置指明在程序启动的时候要删除并且创建实体类对应的表
 #    open-in-view: true
   flyway:
     enabled: false
 server:
-  port: 8001
+  port: 6000
