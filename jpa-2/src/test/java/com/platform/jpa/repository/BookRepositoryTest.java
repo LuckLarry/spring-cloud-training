@@ -21,15 +21,15 @@ public class BookRepositoryTest {
 
     @Before
     public void setUp() throws Exception {
-        Book book1 = new Book("spring");
-        Book book2 = new Book("mvc");
-        Book book3 = new Book("mybatis");
-        Publisher publisher = new Publisher("zhonghua");
-        Set<Book> set = new HashSet<Book>();
-        set.add(book1);
-        set.add(book2);
-        set.add(book3);
-        publisher.setBooks(set);
+//        Book book1 = new Book("spring");
+//        Book book2 = new Book("mvc");
+//        Book book3 = new Book("mybatis");
+//        Publisher publisher = new Publisher("zhonghua");
+//        Set<Book> set = new HashSet<Book>();
+//        set.add(book1);
+//        set.add(book2);
+//        set.add(book3);
+//        publisher.setBooks(set);
 //        publisherRepository.save(publisher);
     }
 

@@ -24,3 +24,22 @@ mappedBy的意思就是“被映射”，即mappedBy这方不用管关联关系�
 public Address getAddress( ) {
       return homeAddress;
 }
+
+
+
+
+
+
+
+
+双向多对多映射
+https://blog.csdn.net/J080624/article/details/78776560
+
+
+
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role:
+ com.platform.jpa.data.Category.items, could not initialize proxy - no Session
+ 解决方案
+ 1，配置文件中配置
+  spring.jpa.open-in-view=true
+ 2，在@OneToMany/ @ManyToMany的参数中使用(fetch = FetchType.EAGER)
