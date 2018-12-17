@@ -44,3 +44,7 @@ org.hibernate.LazyInitializationException: failed to lazily initialize a collect
  1，配置文件中配置
   spring.jpa.open-in-view=true
  2，在@OneToMany/ @ManyToMany的参数中使用(fetch = FetchType.EAGER)
+
+
+spring-data-jpa
+https://www.cnblogs.com/dreamroute/p/5173896.html
