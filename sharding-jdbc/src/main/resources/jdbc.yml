@@ -13,3 +13,5 @@ masterSlaveRule:
   name: db_ms
   masterDataSourceName: db_master
   slaveDataSourceNames: [db_slave]
+
+
